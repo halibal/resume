@@ -9,8 +9,8 @@ body {
 }
 
 .objectFit {
+    object-fit: cover;
 }
-
 
 a {
     text-decoration: none;
