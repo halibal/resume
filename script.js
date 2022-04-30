@@ -19,11 +19,9 @@ function htmlOnClick(num) {
 
         else if (!num == i && !divsArray[i].classList.contains("d-none")) {
             divsArray[i].classList.add('d-none');
-            console.log(i , divsArray[i].classList);
         } else if (num == i) {
             divsArray[num].classList.remove('d-none');
             divsArray[num].classList.add('buttonIsActive');
-            console.log(i , divsArray[i].classList);
         } else {
             divsArray[i].classList.add('d-none');
         }
