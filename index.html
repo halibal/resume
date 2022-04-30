@@ -68,8 +68,8 @@
 
 
                 <!-- Creator Photo and About starts -->
-                <div class="mt-5 mt-xl-auto">
-                    <h2 class="d-none d-xl-block text-center fs-1 fw-normal">About Me</h2>
+                <div class="my-5 my-xl-auto">
+                    <h2 class="d-none d-xl-block text-center fs-1 fw-normal my-5">About Me</h2>
                 </div>
 
                 <hr class="text-dark">
@@ -90,12 +90,47 @@
 
 
                 <!--------------------SECTION TITLES START-------------------->
-                <div class="d-flex flex-column flex-xl-row justify-content-center justify-content-lg-around align-items-center ">
-                    <button class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"><i class="fa-solid fa-book-open mx-2"></i><br class="d-none d-xl-block">Education</button>
-                    <button class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"><i class="fa-solid fa-briefcase mx-2"></i><br class="d-none d-xl-block"> Work History</button>
-                    <button class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"><i class="fa-solid fa-folder-tree mx-2"></i></i><br class="d-none d-xl-block">Projects</button>
-                    <button class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"><i class="fa-solid fa-certificate mx-2"></i><br class="d-none d-xl-block">Certifications</button>
-                    <button class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"><i class="fa-solid fa-certificate mx-2"></i><br class="d-none d-xl-block">Skills</button>
+                <div class="d-flex flex-column flex-xl-row justify-content-center justify-content-lg-around align-items-center my-xl-5">
+                    <button 
+                    id="educationBtn" 
+                    class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"
+                    onclick="htmlOnClick(0)">
+                        <i class="fa-solid fa-book-open mx-2"></i>
+                        <br class="d-none d-xl-block">
+                        Education
+                    </button>
+                    <button 
+                    id="workHistoryBtn" 
+                    class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"
+                    onclick="htmlOnClick(1)">
+                        <i class="fa-solid fa-briefcase mx-2"></i>
+                        <br class="d-none d-xl-block">
+                        Work History
+                    </button>
+                    <button 
+                    id="projectsBtn" 
+                    class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"
+                    onclick="htmlOnClick(2)">
+                        <i class="fa-solid fa-folder-tree mx-2"></i>
+                        <br class="d-none d-xl-block">
+                        Projects
+                    </button>
+                    <button 
+                    id="certificationsBtn" 
+                    class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"
+                    onclick="htmlOnClick(3)">
+                        <i class="fa-solid fa-certificate mx-2"></i>
+                        <br class="d-none d-xl-block">
+                        Certifications
+                    </button>
+                    <button 
+                    id="skillsBtn" 
+                    class="col-9 col-xl-2 btn btn-outline-dark fs-5 my-2 rounded-3 mx-xl-2"
+                    onclick="htmlOnClick(4)">
+                        <i class="fa-solid fa-certificate mx-2"></i>
+                        <br class="d-none d-xl-block">
+                        Skills
+                    </button>
                     
                 </div>
                 <!--------------------SECTION TITLES END-------------------->
@@ -176,7 +211,7 @@
                             </div>
                             <div class="col-xl-9">
                                 <p class="fw-bold text-center text-xl-start">Senior Editor & Translator (EN <i class="fa-solid fa-arrow-right-arrow-left"></i> TR)</p>
-                                <p>Past 7 years, I have translated over <strong>1 million words</strong> and have reviewed other translators' tasks working as a freelance translator & senior editor. Translation contents include customer support, technical support, legal, and gaming etc. fields of companies like Wise, eBay, Microsoft, Rovio, Oculus, Udemy, Logitech.</p>
+                                <p>Past 7 years, I have translated over <strong>1 million words</strong> and reviewed other translators' tasks working as a freelance translator & senior editor. Translation contents include customer support, technical support, legal, and gaming etc. fields of companies like Wise, eBay, Microsoft, Rovio, Oculus, Udemy, Logitech.</p>
                             </div>
                         </div>
                     </div>
@@ -623,5 +658,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- fontawesome -->
         <script src="https://kit.fontawesome.com/b4dca47d5d.js" crossorigin="anonymous"></script>
+        <!-- local js -->
+        <script src="script.js"></script>
     </body>
 </html>
